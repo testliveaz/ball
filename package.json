@@ -1,30 +1,21 @@
 {
-  "name": "tiktok-printer",
-  "version": "1.0.0",
-  "description": "Tiktok Printer",
-  "main": "server.js",
- "dependencies": {
-    "electron": "^24.2.0",
-    "langdetect": "^0.2.1",
-    "languagedetect": "^2.0.0",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.2",
-    "socket.io": "^4.7.5",
-    "tiktok-live-connector": "^1.1.7"
-  },
-  "scripts": {
-    "app": "node server.js",
-    "start": "node server.js"
-  },
-  "author": "adierebel",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mvorxan/balloon.git"
-  },
-  "keywords": [],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mvorxan/balloon/issues"
-  },
-  "homepage": "https://github.com/mvorxan/balloon#readme"
+	"name": "tiktok-printer",
+	"version": "1.0.0",
+	"description": "Tiktok Printer",
+	"main": "server.js",
+	"engines": {
+		"node": "18.0.0"
+	},
+	"dependencies": {
+		"dotenv": "^16.0.0",
+		"express": "^4.21.2",
+		"google-tts-api": "^2.0.2",
+		"mssql": "^10.0.1",
+		"socket.io": "^4.8.1",
+		"tiktok-live-connector": "^1.2.3"
+	},
+	"scripts": {
+		"app": "node server.js"
+	},
+	"author": "adierebel"
 }
